@@ -1,0 +1,12 @@
+.containerCar {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 50%;
+  left: 5%;
+}

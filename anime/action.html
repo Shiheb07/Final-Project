@@ -2,232 +2,273 @@
 <html lang="en">
 
 <!-- Mirrored from codervent.com/bulona/demo/pages-blank-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 May 2019 00:21:39 GMT -->
+
 <head>
-  <meta charset="utf-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-  <meta name="description" content=""/>
-  <meta name="author" content=""/>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
   <title>Geek Slayer</title>
   <!--favicon-->
   <link rel="icon" href="../images/logo.png" type="image/x-icon">
   <!-- simplebar CSS-->
-  <link href="../assets/plugins/simplebar/css/simplebar.css" rel="stylesheet"/>
+  <link href="../assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
   <!-- Bootstrap core CSS-->
-  <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
   <!-- animate CSS-->
-  <link href="../assets/css/animate.css" rel="stylesheet" type="text/css"/>
+  <link href="../assets/css/animate.css" rel="stylesheet" type="text/css" />
   <!-- Icons CSS-->
-  <link href="../assets/css/icons.css" rel="stylesheet" type="text/css"/>
+  <link href="../assets/css/icons.css" rel="stylesheet" type="text/css" />
   <!-- Sidebar CSS-->
-  <link href="../assets/css/sidebar-menu.css" rel="stylesheet"/>
+  <link href="../assets/css/sidebar-menu.css" rel="stylesheet" />
   <!-- Custom Style-->
-  <link href="../assets/css/app-style.css" rel="stylesheet"/>
- 
+  <link href="../assets/css/app-style.css" rel="stylesheet" />
+  <!-- Carrousel-->
+  <link href="../css/carrousel.css" rel="stylesheet" />
+
 </head>
 
 <body>
 
-<!-- start loader -->
-   <div id="pageloader-overlay" class="visible incoming"><div class="loader-wrapper-outer"><div class="loader-wrapper-inner" ><div class="loader"></div></div></div></div>
-   <!-- end loader -->
-
-<!-- Start wrapper-->
- <div id="wrapper">
-
- <!--Start sidebar-wrapper-->
- <div id="sidebar-wrapper" class="bg-theme bg-theme2" data-simplebar="" data-simplebar-auto-hide="true">
-  <div class="brand-logo">
-   <a href="index.html">
-    <img src="../images/logo.png" class="logo-icon" alt="logo icon"  >
-    <h5 class="logo-text">Geek Slayer</h5>
-  </a>
-</div>
-<div class="user-details">
- <div class="media align-items-center user-pointer collapsed" data-toggle="collapse" data-target="#user-dropdown">
-   <div class="avatar"><img class="mr-3 side-user-img" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt="user avatar"></div>
-    <div class="media-body">
-    <h6 class="side-user-name" style="color: #3fe863;">Online ●</h6>
-   </div>
+  <!-- start loader -->
+  <div id="pageloader-overlay" class="visible incoming">
+    <div class="loader-wrapper-outer">
+      <div class="loader-wrapper-inner">
+        <div class="loader"></div>
+      </div>
     </div>
-  <div id="user-dropdown" class="collapse">
-   <ul class="user-setting-menu">
-         <li><a href="javaScript:void();"><i class="icon-user"></i>  My Profile</a></li>
-         <li><a href="javaScript:void();"><i class="icon-settings"></i> Setting</a></li>
-   <li><a href="javaScript:void();"><i class="icon-power"></i> Logout</a></li>
-   </ul>
   </div>
-   </div>
-<ul class="sidebar-menu do-nicescrol">
-   <li class="sidebar-header">MAIN NAVIGATION</li>
-   <li>
-     <a href="javaScript:void();" class="waves-effect">
-       <i class="zmdi zmdi-view-dashboard"></i> <span>Anime</span><i class="fa fa-angle-left pull-right"></i>
-     </a>
- <ul class="sidebar-submenu">
-   <li><a href="index.html"><i class="zmdi zmdi-long-arrow-right"></i>Action</a></li>
-       <li><a href="index2.html"><i class="zmdi zmdi-long-arrow-right"></i>Shonen</a></li>
-   <li><a href="dashboard-service-support.html"><i class="zmdi zmdi-long-arrow-right"></i> Fiction</a></li>
-   <li><a href="dashboard-logistics.html"><i class="zmdi zmdi-long-arrow-right"></i> Others </a></li>
- </ul>
- 
-   </li>
+  <!-- end loader -->
 
-   <li>
-     <a href="javaScript:void();" class="waves-effect">
-       <i class="zmdi zmdi-view-dashboard"></i> <span>Games</span><i class="fa fa-angle-left pull-right"></i>
-     </a>
- <ul class="sidebar-submenu">
-   <li><a href="index.html"><i class="zmdi zmdi-long-arrow-right"></i> FPS </a></li>
-       <li><a href="index2.html"><i class="zmdi zmdi-long-arrow-right"></i>RPG</a></li>
-   <li><a href="dashboard-service-support.html"><i class="zmdi zmdi-long-arrow-right"></i>Moba</a></li>
-   <li><a href="dashboard-logistics.html"><i class="zmdi zmdi-long-arrow-right"></i> Others</a></li>
- </ul>
- 
-   </li>
+  <!-- Start wrapper-->
+  <div id="wrapper">
 
-  
-</ul>
-
-</div>
-<!--End sidebar-wrapper-->
-
-<!--Start topbar header-->
-<header  >
- <nav class="navbar navbar-expand fixed-top">
-  <ul class="navbar-nav mr-auto align-items-center">
-    <li class="nav-item">
-      <a class="nav-link toggle-menu" href="javascript:void();">
-       <i class="icon-menu menu-icon"  style="color: antiquewhite;"></i>
-     </a>
-    </li>
-    <li class="nav-item" >
-      <form class="search-bar " >
-        <input type="text" class="form-control  " placeholder="Enter keywords" style="background-color:rgba(0,0,0,0) !important;
-        border:black !important; font-weight: bold; width: 200px; "  >
-         <a href="javascript:void();"><i class="icon-magnifier" style="color:gray ; font-weight: bold; width: 5px;"></i></a>
-      </form>
-    </li>
-  </ul>
-     
-
-</nav>
-</header>
-<!--End topbar header-->
-
-<div class="clearfix" style="background-image: url('../images/bg.jpg');"></div>
-
-	
-  <div class="content-wrapper" style="background-image: url('../images/bg.jpg');">
-    <div class="container-fluid">
-    
-      <div class="row">
-        <div class="col-lg-12">
-		  <div style="height:600px"> <!--Please remove the height before using this page-->
-		
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-           <div class="card">
-            <img src="../assets/images/gallery/6.jpg" class="card-img-top" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card Sample title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-             <ul class="list-group list-group-flush list shadow-none">
-              <li class="list-group-item d-flex justify-content-between align-items-center">Cras justo odio <span class="badge badge-info badge-pill">14</span></li>
-              <li class="list-group-item d-flex justify-content-between align-items-center">Dapibus ac facilisis in <span class="badge badge-success badge-pill">2</span></li>
-              <li class="list-group-item d-flex justify-content-between align-items-center">Vestibulum at eros <span class="badge badge-danger badge-pill">1</span></li>
-            </ul>
-            <div class="card-body">
-              <a href="javascript:void();" class="card-link">Card link</a>
-              <a href="javascript:void();" class="card-link">Another link</a>
-            </div>
-          </div>
-          </div>
-          <div class="col-lg-4">
-           <div class="card">
-            <img src="../assets/images/gallery/7.jpg" class="card-img-top" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card Sample title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-              <ul class="list-group list-group-flush list shadow-none">
-              <li class="list-group-item d-flex justify-content-between align-items-center">Cras justo odio <span class="badge badge-info badge-pill">14</span></li>
-              <li class="list-group-item d-flex justify-content-between align-items-center">Dapibus ac facilisis in <span class="badge badge-success badge-pill">2</span></li>
-              <li class="list-group-item d-flex justify-content-between align-items-center">Vestibulum at eros <span class="badge badge-danger badge-pill">1</span></li>
-            </ul>
-            <div class="card-body">
-              <a href="javascript:void();" class="card-link">Card link</a>
-              <a href="javascript:void();" class="card-link">Another link</a>
-            </div>
-          </div>
-          </div>
-          <div class="col-lg-4">
-           <div class="card">
-            <div id="carousel-2" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-2" data-slide-to="1" class=""></li>
-                <li data-target="#carousel-2" data-slide-to="2" class=""></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item carousel-item-next carousel-item-left">
-                  <img class="d-block w-100 card-img-top" src="../assets/images/gallery/8.jpg" alt="Card image cap">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100 card-img-top" src="../assets/images/gallery/9.jpg" alt="Card image cap">
-                </div>
-                <div class="carousel-item active carousel-item-left">
-                  <img class="d-block w-100 card-img-top" src="../assets/images/gallery/10.jpg" alt="Card image cap">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Card Sample title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-             <ul class="list-group list-group-flush list shadow-none">
-              <li class="list-group-item d-flex justify-content-between align-items-center">Cras justo odio <span class="badge badge-info">14</span></li>
-              <li class="list-group-item d-flex justify-content-between align-items-center">Dapibus ac facilisis in <span class="badge badge-success">2</span></li>
-              <li class="list-group-item d-flex justify-content-between align-items-center">Vestibulum at eros <span class="badge badge-danger">1</span></li>
-            </ul>
-            <div class="card-body">
-              <a href="javascript:void();" class="card-link">Card link</a>
-              <a href="javascript:void();" class="card-link">Another link</a>
-            </div>
-          </div>
+    <!--Start sidebar-wrapper-->
+    <div id="sidebar-wrapper" class="bg-theme bg-theme2" data-simplebar="" data-simplebar-auto-hide="true">
+      <div class="brand-logo">
+        <a href="index.html">
+          <img src="../images/logo.png" class="logo-icon" alt="logo icon">
+          <h5 class="logo-text">Geek Slayer</h5>
+        </a>
+      </div>
+      <div class="user-details">
+        <div class="media align-items-center user-pointer collapsed" data-toggle="collapse"
+          data-target="#user-dropdown">
+          <div class="avatar"><img class="mr-3 side-user-img"
+              src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png"
+              alt="user avatar"></div>
+          <div class="media-body">
+            <h6 class="side-user-name" style="color: #3fe863;">Online ●</h6>
           </div>
         </div>
+        <div id="user-dropdown" class="collapse">
+          <ul class="user-setting-menu">
+            <li><a href="javaScript:void();"><i class="icon-user"></i> My Profile</a></li>
+            <li><a href="javaScript:void();"><i class="icon-settings"></i> Setting</a></li>
+            <li><a href="javaScript:void();"><i class="icon-power"></i> Logout</a></li>
+          </ul>
         </div>
       </div>
+      <ul class="sidebar-menu do-nicescrol">
+        <li class="sidebar-header">MAIN NAVIGATION</li>
+        <li>
+          <a href="javaScript:void();" class="waves-effect">
+            <i class="zmdi zmdi-view-dashboard"></i> <span>Anime</span><i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="sidebar-submenu">
+            <li><a href="index.html"><i class="zmdi zmdi-long-arrow-right"></i>Action</a></li>
+            <li><a href="index2.html"><i class="zmdi zmdi-long-arrow-right"></i>Shonen</a></li>
+            <li><a href="dashboard-service-support.html"><i class="zmdi zmdi-long-arrow-right"></i> Fiction</a></li>
+            <li><a href="dashboard-logistics.html"><i class="zmdi zmdi-long-arrow-right"></i> Others </a></li>
+          </ul>
+
+        </li>
+
+        <li>
+          <a href="javaScript:void();" class="waves-effect">
+            <i class="zmdi zmdi-view-dashboard"></i> <span>Games</span><i class="fa fa-angle-left pull-right"></i>
+          </a>
+          <ul class="sidebar-submenu">
+            <li><a href="index.html"><i class="zmdi zmdi-long-arrow-right"></i> FPS </a></li>
+            <li><a href="index2.html"><i class="zmdi zmdi-long-arrow-right"></i>RPG</a></li>
+            <li><a href="dashboard-service-support.html"><i class="zmdi zmdi-long-arrow-right"></i>Moba</a></li>
+            <li><a href="dashboard-logistics.html"><i class="zmdi zmdi-long-arrow-right"></i> Others</a></li>
+          </ul>
+
+        </li>
+
+
+      </ul>
 
     </div>
-    <!-- End container-fluid-->
+    <!--End sidebar-wrapper-->
 
-   </div><!--End content-wrapper-->
-   <!--Start Back To Top Button-->
-    <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
-    <!--End Back To Top Button-->
-    
-    <!--Start footer-->
-    <footer class="footer">
-        <div class="container">
-          <div class="text-center">
-            Copyright © 2018 Bulona Admin
+    <!--Start topbar header-->
+    <header>
+      <nav class="navbar navbar-expand fixed-top">
+        <ul class="navbar-nav mr-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link toggle-menu" href="javascript:void();">
+              <i class="icon-menu menu-icon" style="color: antiquewhite;"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <form class="search-bar ">
+              <input type="text" class="form-control  " placeholder="Enter keywords" style="background-color:rgba(0,0,0,0) !important;
+        border:black !important; font-weight: bold; width: 200px; ">
+              <a href="javascript:void();"><i class="icon-magnifier"
+                  style="color:gray ; font-weight: bold; width: 5px;"></i></a>
+            </form>
+          </li>
+        </ul>
+
+
+      </nav>
+    </header>
+    <!--End topbar header-->
+
+    <div class="clearfix" style="background-image: url('../images/bg.jpg');"></div>
+
+
+    <div id="bgCarrousel" class="content-wrapper" style="background-image: url('../images/bg.jpg');">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div style=" margin-left: -20px; margin-right: -20px; margin-top: -20px; margin-bottom: 20px;">
+              <!--Please remove the height before using this page-->
+              <div  class="containerCar" style="width: 100%;height: 100%; padding-bottom: 10px;">
+                
+                <div class="bottom-left">Bottom Left</div>
+
+                <img src="../images/bg.jpg" alt="" style="background-size: cover; background-position: center; width: 100%; height: auto;"/>
+
+
+
+
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card">
+                  <img src="../assets/images/gallery/6.jpg" class="card-img-top" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card Sample title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush list shadow-none">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Cras justo odio <span
+                        class="badge badge-info badge-pill">14</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Dapibus ac facilisis
+                      in <span class="badge badge-success badge-pill">2</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Vestibulum at eros
+                      <span class="badge badge-danger badge-pill">1</span>
+                    </li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="javascript:void();" class="card-link">Card link</a>
+                    <a href="javascript:void();" class="card-link">Another link</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card">
+                  <img src="../assets/images/gallery/7.jpg" class="card-img-top" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card Sample title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush list shadow-none">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Cras justo odio <span
+                        class="badge badge-info badge-pill">14</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Dapibus ac facilisis
+                      in <span class="badge badge-success badge-pill">2</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Vestibulum at eros
+                      <span class="badge badge-danger badge-pill">1</span>
+                    </li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="javascript:void();" class="card-link">Card link</a>
+                    <a href="javascript:void();" class="card-link">Another link</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card">
+                  <div id="carousel-2" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-2" data-slide-to="1" class=""></li>
+                      <li data-target="#carousel-2" data-slide-to="2" class=""></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item carousel-item-next carousel-item-left">
+                        <img class="d-block w-100 card-img-top" src="../assets/images/gallery/8.jpg"
+                          alt="Card image cap">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 card-img-top" src="../assets/images/gallery/9.jpg"
+                          alt="Card image cap">
+                      </div>
+                      <div class="carousel-item active carousel-item-left">
+                        <img class="d-block w-100 card-img-top" src="../assets/images/gallery/10.jpg"
+                          alt="Card image cap">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Card Sample title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                  <ul class="list-group list-group-flush list shadow-none">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Cras justo odio <span
+                        class="badge badge-info">14</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Dapibus ac facilisis
+                      in <span class="badge badge-success">2</span></li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">Vestibulum at eros
+                      <span class="badge badge-danger">1</span>
+                    </li>
+                  </ul>
+                  <div class="card-body">
+                    <a href="javascript:void();" class="card-link">Card link</a>
+                    <a href="javascript:void();" class="card-link">Another link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </footer>
+
+      </div>
+      <!-- End container-fluid-->
+
+    </div><!--End content-wrapper-->
+    <!--Start Back To Top Button-->
+    <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
+    <!--End Back To Top Button-->
+
+    <!--Start footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="text-center">
+          Copyright © 2018 Bulona Admin
+        </div>
+      </div>
+    </footer>
     <!--End footer-->
-    
+
     <!--start color switcher-->
     <div class="right-sidebar">
       <div class="switcher-icon">
@@ -237,7 +278,7 @@
 
         <p class="mb-0">Gaussion Texture</p>
         <hr>
-        
+
         <ul class="switcher">
           <li id="theme1"></li>
           <li id="theme2"></li>
@@ -249,7 +290,7 @@
 
         <p class="mb-0">Gradient Background</p>
         <hr>
-        
+
         <ul class="switcher">
           <li id="theme7"></li>
           <li id="theme8"></li>
@@ -258,28 +299,31 @@
           <li id="theme11"></li>
           <li id="theme12"></li>
         </ul>
-        
+
       </div>
     </div>
     <!--end color cwitcher-->
-    
-    </div><!--End wrapper-->
-    
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/popper.min.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    
-    <!-- simplebar js -->
-    <script src="../assets/plugins/simplebar/js/simplebar.js"></script>
-    <!-- sidebar-menu js -->
-    <script src="../assets/js/sidebar-menu.js"></script>
-    
-    <!-- Custom scripts -->
-    <script src="../assets/js/app-script.js"></script>
+  </div><!--End wrapper-->
 
-  </body>
 
-  <!-- Mirrored from codervent.com/bulona/demo/pages-blank-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 May 2019 00:21:39 GMT -->
-  </html>
+  <!-- Bootstrap core JavaScript-->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/popper.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+
+  <!-- simplebar js -->
+  <script src="../assets/plugins/simplebar/js/simplebar.js"></script>
+  <!-- sidebar-menu js -->
+  <script src="../assets/js/sidebar-menu.js"></script>
+
+  <!-- Custom scripts -->
+  <script src="../assets/js/app-script.js"></script>
+  <!-- Carrousel scripts -->
+  <script src="../js/carrousel.js"></script>
+
+</body>
+
+<!-- Mirrored from codervent.com/bulona/demo/pages-blank-page.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 May 2019 00:21:39 GMT -->
+
+</html>
