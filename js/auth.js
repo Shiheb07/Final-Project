@@ -17,3 +17,10 @@ if (username === ""){
 }
 
 }
+function signUp() {
+    let name = document.getElementById("inputName").value ;
+    let email = document.getElementById("inputEmailId").value ;
+    let password = document.getElementById("inputPassword").value ;
+    let retryPassword = document.getElementById("inputRetryPassword").value ;
+
+};
